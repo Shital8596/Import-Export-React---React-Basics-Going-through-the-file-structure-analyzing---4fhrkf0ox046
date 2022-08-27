@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import './styles/App.css';
-import './components/Heading'
+import 'src/components/Heading.js'
 import './components/InputQuery'
 import './components/SubHeading'
 import './components/SubmitButton'
