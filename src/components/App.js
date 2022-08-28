@@ -6,7 +6,7 @@ import './SubHeading.js';
 import './SubmitButton.js';
 
 const App = () => {
-  return (
+  return ReactDOM.render(
     <div id="main">
       <Heading />
       <InputQuery />
@@ -15,6 +15,8 @@ const App = () => {
     </div>
   )
 }
+<div id="app"></div> 
+ReactDOM.render(<App />, document.querySelector("#app"));
 
 export default App
 
